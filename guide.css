@@ -1,0 +1,149 @@
+/* Polices de texte */
+
+@font-face{
+    font-family: 'ambleregular';
+    src: url('fonts/amble-regular/Amble-Regular-webfont.eot');
+    src: url('fonts/amble-regular/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amble-regular/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/amble-regular/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/amble-regular/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/amble-regular/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'droid_sansregular';
+    src: url('fonts/droidsans-regular/DroidSans-webfont.eot');
+    src: url('fonts/droidsans-regular/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/droidsans-regular/DroidSans-webfont.woff') format('woff'),
+         url('fonts/droidsans-regular/DroidSans-webfont.ttf') format('truetype'),
+         url('fonts/droidsans-regular/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    background-image: url("images/vinewood.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* CSS du logo avec les liens des réseauxdroid_sansregular sociaux et la barre de navigation*/
+
+#table-nav-toolbar{
+    width: 70%;
+    margin: 0 auto;
+}
+.img-nav{
+    float: left;
+}
+.social-links{
+    float: right;
+}
+#nav-toolbar{
+    max-width: 50%;
+    max-height: auto;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto;
+    border: 1px solid #fff0;
+    border-radius: 3px;
+    background-color: #fff;
+}
+#a-nav-toolbar{
+    text-decoration: none;
+    color: initial;
+}
+#li-nav-toolbar{
+    font-family: 'Oswald';
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#search-nav-toolbar{
+    float: right;
+    margin-right: 1em;
+}
+
+/* CSS corps du site "Section"  de l'Accueil*/
+
+#sec-nav-home{
+    max-width: 50%;
+    max-height: auto;
+    margin: 0 auto;
+    margin-top: 3em;
+    border: 1px solid #fff0;
+    border-radius: 0.15em;
+    background-color: #fff;
+    padding: 1em;
+}
+#button-link{
+    display: block;
+    text-decoration: none;
+    background-color: #fafafa;
+    border: 0.01em solid #9c9c9c;
+    box-shadow: 1px -1px 5px #9c9c9c;
+    color: #000;
+    font-family: 'Oswald';
+    padding: 0.5em;
+    margin: 0.5em;
+}
+#title{
+    font-weight: normal;
+    font-size: 1.25em;
+}
+footer{
+    display: block;
+    float: right;
+    font-size: 1em;
+    color: #ffff;
+}
+footer a{
+    color: #ffff;
+}
+
+/* CSS "Section" de Principles*/
+
+#sec-nav-principles{
+    max-width: 50%;
+    max-height: auto;
+    margin: 0 auto;
+    margin-top: 3em;
+    border: 1px solid #fff0;
+    border-radius: 0.15em;
+    background-color: #fff;
+    padding: 1em;
+}
+#navbar-principles-list{
+    display: block;
+    float: right;
+    padding: 0.5em;
+    background-color: #fafafa;
+    border: 1px solid #ffff;
+    border-radius: 0.15em;
+    box-shadow: 1px -1px 5px #9c9c9c;
+}
+.a-principles{
+    text-decoration: none;
+    color: initial;
+}
+.li-competences{
+    width: 15em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    padding-left: 1em;
+    border: 1px solid #3d3d3d;
+    border-radius: 0.15em;
+    text-align: left;
+    background-color: #3d3d3d;
+    color: #ffff;
+}
+.competences{
+    list-style: square;
+}
+.h3-principles{
+    font-family: droid_sansregular;
+    color: #ffff;
+    border: 1px solid #5e27ab;
+    border-radius: 0.15em;
+    background-color: #5e27ab;
+    padding: 0.25em;
+}

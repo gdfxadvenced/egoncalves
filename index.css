@@ -1,0 +1,195 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    background-color: #252525;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#ul{
+    margin-top: none;
+}
+#page-top{
+    display: block;
+    min-width: 100%;
+}
+#navbar{
+    background: #000000;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.a-nav-toolbar{
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em;
+    text-align: right;
+}
+.a-nav-toolbar:hover{
+    border: solid 1px #fff;
+    border-radius: 0.25em;
+    opacity: 80%;
+}
+#first{
+    margin-top: 5em;
+    padding: 100px 0 500px;
+    text-align: center;
+    color: #fff;
+    background: url(images/code.jpg) no-repeat bottom scroll;
+    background-size: cover;
+}
+#name{
+    text-transform: uppercase;
+    font-size: 4em;
+}
+#start-button:hover{
+    opacity: 70%;
+}
+.h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+#about, #techs, #exp, #touch{
+    padding-top: 5em;
+}
+.p-about{
+    font-size: 1.25em;
+    line-height: 2;
+}
+#a-gta{
+    color: #ffffff;
+    font-weight: 500;
+}
+#a-gta:hover{
+    color: #0036d9;
+}
+.block-logo{
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5em;
+}
+.d-in-block{
+    display: inline-block;
+    border: solid #ffffff 0.5px;
+    width: 7em;
+    background-color: #4a4a4a;
+}
+.img-logo{
+    width: 7em;
+}
+.logo-text{
+    text-align: center;
+}
+
+.a-logo{
+    text-decoration: none;
+    color: #ffffff;
+}
+.a-logo:hover{
+    color: #0036d9;
+}
+article{
+    padding-top: 10em;
+    max-width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+}
+.article{
+    padding-top: 15em;
+}
+#exp-pro, #school-date{
+    padding: 2em;
+}
+.h3-school, .h3-exp{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.h4-school, .h4-exp{
+    text-decoration: underline;
+}
+.p-button{
+    font-size: 1.25em;
+    line-height: 2em;
+}
+.li-school{
+    font-size: 0.8em;
+}
+#touch{
+    text-align: center;
+    padding-bottom: 5em;
+}
+.button{
+    padding: 0.5em;
+    -webkit-appearance: button;
+    text-decoration: none;
+    color: #4169e1;
+    border: 1px solid #4169e1;
+    background-color: transparent;
+    font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0.5px;
+}
+.button:hover{
+    color: #000;
+    background-color: #4169e1;
+}
+footer{
+    background-color: #101010;
+    padding-top: 10em;
+    max-width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+}
+#e-g{
+    color: #4169e1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#e-g:hover{
+    color: #0036d9;
+}
+#mentions{
+    color: #4169e1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#mentions:hover{
+    color: #0036d9;
+}
+.built{
+    text-decoration: none;
+    color: #4169e1;
+}
+.built:hover{
+    color: #0036d9;
+}
+#built{
+    font-size: initial;
+}
+.lead{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 3em;
+}
